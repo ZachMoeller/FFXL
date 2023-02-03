@@ -63,4 +63,5 @@ const NavigationWrapper = styled.div`
   margin-right: 25px;
   padding-right: 10px;
 `;
+
 export default NavBar;
