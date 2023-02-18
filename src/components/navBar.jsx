@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import styled from "styled-components";
 
 class NavBar extends Component {
-  state = {};
   render() {
     return (
       <Wrapper>
@@ -63,4 +62,5 @@ const NavigationWrapper = styled.div`
   margin-right: 25px;
   padding-right: 10px;
 `;
+
 export default NavBar;

@@ -3,13 +3,12 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import NavBar from "./components/navBar";
-import weatherBox from "./components/dropdown";
+import { stadiumData } from "./stadiums";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <NavBar></NavBar>
-    <weatherBox></weatherBox>
   </React.StrictMode>
 );
 
