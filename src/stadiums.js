@@ -1,14 +1,14 @@
-export const stadiumData = [
+[
   {
-    Name: "Acrisure Stadium",
+    "Stadium Name": "Acrisure Stadium",
     Location: "Pittsburgh, Pennsylvania",
     Dome: "Open",
     Team: "Pittsburgh Steelers",
-    Latitude: "40.4468",
-    Longitude: "-80.0158",
+    Latitude: 40.4468,
+    Longitude: -80.0158,
   },
   {
-    Name: "Allegiant Stadium",
+    "Stadium Name": "Allegiant Stadium",
     Location: "Las Vegas, Nevada",
     Dome: "Fixed",
     Team: "Las Vegas Raiders",
@@ -16,7 +16,7 @@ export const stadiumData = [
     Longitude: -115.1833,
   },
   {
-    Name: "GEHA Field at Arrowhead Stadium",
+    "Stadium Name": "GEHA Field at Arrowhead Stadium",
     Location: "Kansas City, Missouri",
     Dome: "Open",
     Team: "Kansas City Chiefs",
@@ -24,7 +24,7 @@ export const stadiumData = [
     Longitude: -94.4839,
   },
   {
-    Name: "AT&T Stadium",
+    "Stadium Name": "AT&T Stadium",
     Location: "Arlington, Texas",
     Dome: "Retractable",
     Team: "Dallas Cowboys",
@@ -32,7 +32,7 @@ export const stadiumData = [
     Longitude: -97.0945,
   },
   {
-    Name: "Bank of America Stadium",
+    "Stadium Name": "Bank of America Stadium",
     Location: "Charlotte, North Carolina",
     Dome: "Open",
     Team: "Carolina Panthers",
@@ -40,7 +40,7 @@ export const stadiumData = [
     Longitude: -80.853,
   },
   {
-    Name: "Caesars Superdome",
+    "Stadium Name": "Caesars Superdome",
     Location: "New Orleans, Louisiana",
     Dome: "Fixed",
     Team: "New Orleans Saints",
@@ -48,7 +48,7 @@ export const stadiumData = [
     Longitude: -90.0812,
   },
   {
-    Name: "Empower Field at Mile High",
+    "Stadium Name": "Empower Field at Mile High",
     Location: "Denver, Colorado",
     Dome: "Open",
     Team: "Denver Broncos",
@@ -56,7 +56,7 @@ export const stadiumData = [
     Longitude: -105.0201,
   },
   {
-    Name: "FedEx Field",
+    "Stadium Name": "FedEx Field",
     Location: "Landover, Maryland",
     Dome: "Open",
     Team: "Washington Commanders",
@@ -64,7 +64,7 @@ export const stadiumData = [
     Longitude: -76.8645,
   },
   {
-    Name: "Ford Field",
+    "Stadium Name": "Ford Field",
     Location: "Detroit, Michigan",
     Dome: "Fixed",
     Team: "Detroit Lions",
@@ -72,7 +72,7 @@ export const stadiumData = [
     Longitude: -83.0456,
   },
   {
-    Name: "Gillette Stadium",
+    "Stadium Name": "Gillette Stadium",
     Location: "Foxborough, Massachusetts",
     Dome: "Open",
     Team: "New England Patriots",
@@ -80,7 +80,7 @@ export const stadiumData = [
     Longitude: -71.2643,
   },
   {
-    Name: "Hard Rock Stadium",
+    "Stadium Name": "Hard Rock Stadium",
     Location: "Miami Gardens, Florida",
     Dome: "Open",
     Team: "Miami Dolphins",
@@ -88,7 +88,7 @@ export const stadiumData = [
     Longitude: -80.2389,
   },
   {
-    Name: "Highmark Stadium",
+    "Stadium Name": "Highmark Stadium",
     Location: "Orchard Park, New York",
     Dome: "Open",
     Team: "Buffalo Bills",
@@ -96,7 +96,7 @@ export const stadiumData = [
     Longitude: -78.787,
   },
   {
-    Name: "Lambeau Field",
+    "Stadium Name": "Lambeau Field",
     Location: "Green Bay, Wisconsin",
     Dome: "Open",
     Team: "Green Bay Packers",
@@ -104,7 +104,7 @@ export const stadiumData = [
     Longitude: -88.0622,
   },
   {
-    Name: "Levi's Stadium",
+    "Stadium Name": "Levi's Stadium",
     Location: "Santa Clara, California",
     Dome: "Open",
     Team: "San Francisco 49ers",
@@ -112,7 +112,7 @@ export const stadiumData = [
     Longitude: -121.9694,
   },
   {
-    Name: "Lincoln Financial Field",
+    "Stadium Name": "Lincoln Financial Field",
     Location: "Philadelphia, Pennsylvania",
     Dome: "Open",
     Team: "Philadelphia Eagles",
@@ -120,7 +120,7 @@ export const stadiumData = [
     Longitude: -75.1675,
   },
   {
-    Name: "Lucas Oil Stadium",
+    "Stadium Name": "Lucas Oil Stadium",
     Location: "Indianapolis, Indiana",
     Dome: "Retractable",
     Team: "Indianapolis Colts",
@@ -128,7 +128,7 @@ export const stadiumData = [
     Longitude: -86.1639,
   },
   {
-    Name: "Lumen Field",
+    "Stadium Name": "Lumen Field",
     Location: "Seattle, Washington",
     Dome: "Open",
     Team: "Seattle Seahawks",
@@ -136,7 +136,7 @@ export const stadiumData = [
     Longitude: -122.3316,
   },
   {
-    Name: "M&T Bank Stadium",
+    "Stadium Name": "M&T Bank Stadium",
     Location: "Baltimore, Maryland",
     Dome: "Open",
     Team: "Baltimore Ravens",
@@ -144,7 +144,7 @@ export const stadiumData = [
     Longitude: -76.6227,
   },
   {
-    Name: "Mercedes-Benz",
+    "Stadium Name": "Mercedes-Benz",
     Location: "Atlanta, Georgia",
     Dome: "Retractable",
     Team: "Atlanta Falcons",
@@ -152,7 +152,7 @@ export const stadiumData = [
     Longitude: -84.4006,
   },
   {
-    Name: "MetLife Stadium",
+    "Stadium Name": "MetLife Stadium",
     Location: "East Rutherford, New Jersey",
     Dome: "Open",
     Team: "New York Giants",
@@ -160,7 +160,7 @@ export const stadiumData = [
     Longitude: -74.0745,
   },
   {
-    Name: "MetLife Stadium",
+    "Stadium Name": "MetLife Stadium",
     Location: "East Rutherford, New Jersey",
     Dome: "Open",
     Team: "New York Jets",
@@ -168,7 +168,7 @@ export const stadiumData = [
     Longitude: -74.0745,
   },
   {
-    Name: "Nissan Stadium",
+    "Stadium Name": "Nissan Stadium",
     Location: "Nashville, Tennessee",
     Dome: "Open",
     Team: "Tennessee Titans",
@@ -176,7 +176,7 @@ export const stadiumData = [
     Longitude: -86.7713,
   },
   {
-    Name: "NRG Stadium",
+    "Stadium Name": "NRG Stadium",
     Location: "Houston, Texas",
     Dome: "Retractable",
     Team: "Houston Texans",
@@ -184,7 +184,7 @@ export const stadiumData = [
     Longitude: -95.4107,
   },
   {
-    Name: "Paycor Stadium",
+    "Stadium Name": "Paycor Stadium",
     Location: "Cincinnati, Ohio",
     Dome: "Open",
     Team: "Cincinnati Bengals",
@@ -192,7 +192,7 @@ export const stadiumData = [
     Longitude: -84.5161,
   },
   {
-    Name: "Raymond James Stadium",
+    "Stadium Name": "Raymond James Stadium",
     Location: "Tampa, Florida",
     Dome: "Open",
     Team: "Tampa Bay Buccaneers",
@@ -200,7 +200,7 @@ export const stadiumData = [
     Longitude: -82.5033,
   },
   {
-    Name: "SoFi Stadium",
+    "Stadium Name": "SoFi Stadium",
     Location: "Inglewood, California",
     Dome: "Fixed",
     Team: "Los Angeles Rams",
@@ -208,7 +208,7 @@ export const stadiumData = [
     Longitude: -118.339,
   },
   {
-    Name: "SoFi Stadium",
+    "Stadium Name": "SoFi Stadium",
     Location: "Inglewood, California",
     Dome: "Fixed",
     Team: "Los Angeles Chargers",
@@ -216,7 +216,7 @@ export const stadiumData = [
     Longitude: -118.339,
   },
   {
-    Name: "Soldier Field",
+    "Stadium Name": "Soldier Field",
     Location: "Chicago, Illinois",
     Dome: "Open",
     Team: "Chicago Bears",
@@ -224,7 +224,7 @@ export const stadiumData = [
     Longitude: -87.6167,
   },
   {
-    Name: "State Farm Stadium",
+    "Stadium Name": "State Farm Stadium",
     Location: "Glendale, Arizona",
     Dome: "Retractable",
     Team: "Arizona Cardinals",
@@ -232,7 +232,7 @@ export const stadiumData = [
     Longitude: -112.2626,
   },
   {
-    Name: "TIAA Bank Field",
+    "Stadium Name": "TIAA Bank Field",
     Location: "Jacksonville, Florida",
     Dome: "Open",
     Team: "Jacksonville Jaguars",
@@ -240,11 +240,26 @@ export const stadiumData = [
     Longitude: -81.6373,
   },
   {
-    Name: "U.S. Bank Stadium",
+    "Stadium Name": "U.S. Bank Stadium",
     Location: "Minneapolis, Minnesota",
     Dome: "Fixed",
     Team: "Minnesota Vikings",
     Latitude: 44.9736,
     Longitude: -93.2575,
+  },
+  {
+    "Stadium Name": "Tottenham Hotspur Stadium",
+    Location: "London, England, United Kingdom",
+    Dome: "Open",
+    Team: "None",
+    Latitude: 51.6042,
+    Longitude: -0.0662,
+  },
+  {
+    "Stadium Name": "Allianz Arena",
+    Location: "München, Germany",
+    Dome: "Retractable",
+    Latitude: 48.2188,
+    Longitude: 11.6248,
   },
 ];
