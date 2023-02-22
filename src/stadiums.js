@@ -1,5 +1,6 @@
-[
+export const StadiumData = [
   {
+    id: 0,
     Name: "Acrisure Stadium",
     Location: "Pittsburgh, Pennsylvania",
     Dome: "Open",
@@ -8,6 +9,7 @@
     Longitude: -80.0158,
   },
   {
+    id: 1,
     Name: "Allegiant Stadium",
     Location: "Las Vegas, Nevada",
     Dome: "Fixed",
@@ -16,6 +18,7 @@
     Longitude: -115.1833,
   },
   {
+    id: 3,
     Name: "GEHA Field at Arrowhead Stadium",
     Location: "Kansas City, Missouri",
     Dome: "Open",
@@ -24,6 +27,7 @@
     Longitude: -94.4839,
   },
   {
+    id: 4,
     Name: "AT&T Stadium",
     Location: "Arlington, Texas",
     Dome: "Retractable",
@@ -32,6 +36,7 @@
     Longitude: -97.0945,
   },
   {
+    id: 5,
     Name: "Bank of America Stadium",
     Location: "Charlotte, North Carolina",
     Dome: "Open",
@@ -40,6 +45,7 @@
     Longitude: -80.853,
   },
   {
+    id: 6,
     Name: "Caesars Superdome",
     Location: "New Orleans, Louisiana",
     Dome: "Fixed",
@@ -48,6 +54,7 @@
     Longitude: -90.0812,
   },
   {
+    id: 7,
     Name: "Empower Field at Mile High",
     Location: "Denver, Colorado",
     Dome: "Open",
@@ -56,6 +63,7 @@
     Longitude: -105.0201,
   },
   {
+    id: 8,
     Name: "FedEx Field",
     Location: "Landover, Maryland",
     Dome: "Open",
@@ -64,6 +72,7 @@
     Longitude: -76.8645,
   },
   {
+    id: 9,
     Name: "Ford Field",
     Location: "Detroit, Michigan",
     Dome: "Fixed",
@@ -72,6 +81,7 @@
     Longitude: -83.0456,
   },
   {
+    id: 10,
     Name: "Gillette Stadium",
     Location: "Foxborough, Massachusetts",
     Dome: "Open",
@@ -80,6 +90,7 @@
     Longitude: -71.2643,
   },
   {
+    id: 11,
     Name: "Hard Rock Stadium",
     Location: "Miami Gardens, Florida",
     Dome: "Open",
@@ -88,6 +99,7 @@
     Longitude: -80.2389,
   },
   {
+    id: 12,
     Name: "Highmark Stadium",
     Location: "Orchard Park, New York",
     Dome: "Open",
@@ -96,6 +108,7 @@
     Longitude: -78.787,
   },
   {
+    id: 13,
     Name: "Lambeau Field",
     Location: "Green Bay, Wisconsin",
     Dome: "Open",
@@ -104,6 +117,7 @@
     Longitude: -88.0622,
   },
   {
+    id: 14,
     Name: "Levi's Stadium",
     Location: "Santa Clara, California",
     Dome: "Open",
@@ -112,6 +126,7 @@
     Longitude: -121.9694,
   },
   {
+    id: 15,
     Name: "Lincoln Financial Field",
     Location: "Philadelphia, Pennsylvania",
     Dome: "Open",
@@ -120,6 +135,7 @@
     Longitude: -75.1675,
   },
   {
+    id: 17,
     Name: "Lucas Oil Stadium",
     Location: "Indianapolis, Indiana",
     Dome: "Retractable",
@@ -128,6 +144,7 @@
     Longitude: -86.1639,
   },
   {
+    id: 18,
     Name: "Lumen Field",
     Location: "Seattle, Washington",
     Dome: "Open",
@@ -136,6 +153,7 @@
     Longitude: -122.3316,
   },
   {
+    id: 19,
     Name: "M&T Bank Stadium",
     Location: "Baltimore, Maryland",
     Dome: "Open",
@@ -144,6 +162,7 @@
     Longitude: -76.6227,
   },
   {
+    id: 20,
     Name: "Mercedes-Benz",
     Location: "Atlanta, Georgia",
     Dome: "Retractable",
@@ -152,22 +171,16 @@
     Longitude: -84.4006,
   },
   {
+    id: 21,
     Name: "MetLife Stadium",
     Location: "East Rutherford, New Jersey",
     Dome: "Open",
-    Team: "New York Giants",
+    Team: ["New York Giants", "New York Jets"],
     Latitude: 40.8135,
     Longitude: -74.0745,
   },
   {
-    Name: "MetLife Stadium",
-    Location: "East Rutherford, New Jersey",
-    Dome: "Open",
-    Team: "New York Jets",
-    Latitude: 40.8135,
-    Longitude: -74.0745,
-  },
-  {
+    id: 22,
     Name: "Nissan Stadium",
     Location: "Nashville, Tennessee",
     Dome: "Open",
@@ -176,6 +189,7 @@
     Longitude: -86.7713,
   },
   {
+    id: 23,
     Name: "NRG Stadium",
     Location: "Houston, Texas",
     Dome: "Retractable",
@@ -184,6 +198,7 @@
     Longitude: -95.4107,
   },
   {
+    id: 24,
     Name: "Paycor Stadium",
     Location: "Cincinnati, Ohio",
     Dome: "Open",
@@ -192,6 +207,7 @@
     Longitude: -84.5161,
   },
   {
+    id: 25,
     Name: "Raymond James Stadium",
     Location: "Tampa, Florida",
     Dome: "Open",
@@ -200,22 +216,16 @@
     Longitude: -82.5033,
   },
   {
+    id: 26,
     Name: "SoFi Stadium",
     Location: "Inglewood, California",
     Dome: "Fixed",
-    Team: "Los Angeles Rams",
+    Team: ["Los Angeles Rams", "Los Angeles Chargers"],
     Latitude: 33.9535,
     Longitude: -118.339,
   },
   {
-    Name: "SoFi Stadium",
-    Location: "Inglewood, California",
-    Dome: "Fixed",
-    Team: "Los Angeles Chargers",
-    Latitude: 33.9535,
-    Longitude: -118.339,
-  },
-  {
+    id: 27,
     Name: "Soldier Field",
     Location: "Chicago, Illinois",
     Dome: "Open",
@@ -224,6 +234,7 @@
     Longitude: -87.6167,
   },
   {
+    id: 28,
     Name: "State Farm Stadium",
     Location: "Glendale, Arizona",
     Dome: "Retractable",
@@ -232,6 +243,7 @@
     Longitude: -112.2626,
   },
   {
+    id: 29,
     Name: "TIAA Bank Field",
     Location: "Jacksonville, Florida",
     Dome: "Open",
@@ -240,6 +252,7 @@
     Longitude: -81.6373,
   },
   {
+    id: 30,
     Name: "U.S. Bank Stadium",
     Location: "Minneapolis, Minnesota",
     Dome: "Fixed",
@@ -248,18 +261,20 @@
     Longitude: -93.2575,
   },
   {
+    id: 31,
     Name: "Tottenham Hotspur Stadium",
     Location: "London, England, United Kingdom",
     Dome: "Open",
-    Team: "None",
+    Team: "London England United Kingdom",
     Latitude: 51.6042,
     Longitude: -0.0662,
   },
   {
+    id: 32,
     Name: "Allianz Arena",
     Location: "München, Germany",
     Dome: "Retractable",
-    Team: "None",
+    Team: "Munich Germany München",
     Latitude: 48.2188,
     Longitude: 11.6248,
   },

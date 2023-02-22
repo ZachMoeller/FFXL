@@ -3,12 +3,13 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import NavBar from "./components/navBar";
-import { stadiumData } from "./stadiums";
+import StadiumMenu from "./components/stadiumMenu";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <NavBar></NavBar>
+    {/* <NavBar></NavBar> */}
+    <StadiumMenu></StadiumMenu>
   </React.StrictMode>
 );
 

@@ -4,7 +4,7 @@ import styled from "styled-components";
 class NavBar extends Component {
   render() {
     return (
-      <Wrapper>
+      <NavWrapper>
         <ContentWrapper>
           <FfxlLogo>Logo</FfxlLogo>
           <NavigationWrapper>
@@ -13,12 +13,12 @@ class NavBar extends Component {
             <LinkedButton>Make a League</LinkedButton>
           </NavigationWrapper>
         </ContentWrapper>
-      </Wrapper>
+      </NavWrapper>
     );
   }
 }
 
-const Wrapper = styled.div`
+const NavWrapper = styled.div`
   margin: auto;
   width: 100%;
   padding: 0 15px;
